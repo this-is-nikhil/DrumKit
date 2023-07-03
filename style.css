@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+.container {
+    margin: 50px;
+}
+
+.main h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+.drum-images {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    border-radius: 15px;
+    border: 10px solid #404B69;
+}
+
+.text {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    color: #DA0463;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DBEDF3;
+    margin-top: 1.5rem;
+}
+
+.info {
+    color: #DBEDF3;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #DBEDF3;
+    margin-top: 8rem;
+}
